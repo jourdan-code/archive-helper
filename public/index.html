@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Archive Helper</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="page">
+      <section class="panel">
+        <div class="hero">
+          <div>
+            <p class="eyebrow">Archive Helper</p>
+            <h1>Paste a URL.</h1>
+          </div>
+        </div>
+
+        <form id="archiveForm" class="form">
+          <label class="field">
+            <span>Page URL</span>
+            <input id="urlInput" name="url" type="url" inputmode="url" placeholder="https://example.com/article" autocomplete="off" required>
+          </label>
+
+          <div class="actions">
+            <button type="submit" class="primary">Submit</button>
+          </div>
+        </form>
+
+        <p id="status" class="status" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "name": "archive-helper",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local helper for general web archiving workflows.",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
