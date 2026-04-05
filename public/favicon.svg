@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Archive Helper book icon">
+  <defs>
+    <linearGradient id="page" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#fff7e7" />
+      <stop offset="100%" stop-color="#f0dcc0" />
+    </linearGradient>
+    <linearGradient id="cover" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#c87817" />
+      <stop offset="100%" stop-color="#9b540b" />
+    </linearGradient>
+  </defs>
+  <rect x="9" y="11" width="46" height="42" rx="9" fill="url(#cover)" />
+  <path d="M20 16h22c5 0 9 4 9 9v17c-2-2-5-3-8-3H20c-3 0-6 1-8 3V24c0-4 4-8 8-8Z" fill="url(#page)" />
+  <path d="M32 16v27" stroke="#b56b15" stroke-width="2.6" stroke-linecap="round" />
+  <path d="M19 23h9M19 28h9M36 23h9M36 28h9" stroke="#cfb186" stroke-width="2.4" stroke-linecap="round" />
+  <path d="M24 43h16" stroke="#8d4e08" stroke-width="3.4" stroke-linecap="round" />
+</svg>
