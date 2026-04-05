@@ -116,6 +116,21 @@ button.primary {
   font-weight: 600;
 }
 
+.fallback {
+  margin-top: 10px;
+}
+
+.text-link {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--accent-strong);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: none;
+}
+
 @media (max-width: 700px) {
   .actions {
     grid-template-columns: 1fr;
