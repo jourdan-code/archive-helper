@@ -10,32 +10,6 @@ Small local web app for general web archiving workflows.
 - Copy the original page URL
 - Copy the generated archive submission link
 
-## Run locally
-
-```bash
-cd /Users/benjourdan/archive-helper
-npm start
-```
-
-Then open:
-
-```text
-http://localhost:3000
-```
-
-## Use from your phone on the same Wi‑Fi
-
-1. Start the server on your Mac.
-2. Find your Mac's local IP, for example `192.168.1.25`.
-3. On your phone, open:
-
-   `http://YOUR-MAC-IP:3000`
-
-Example:
-
-```text
-http://192.168.1.25:3000
-```
 
 ## Notes
 
