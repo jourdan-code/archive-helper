@@ -109,6 +109,12 @@ button.primary {
   font-weight: 700;
 }
 
+.secondary {
+  background: rgba(31, 27, 22, 0.92);
+  color: #fff7eb;
+  font-weight: 700;
+}
+
 .status {
   min-height: 24px;
   margin: 14px 2px 0;
@@ -118,17 +124,6 @@ button.primary {
 
 .fallback {
   margin-top: 10px;
-}
-
-.text-link {
-  padding: 0;
-  border: 0;
-  background: transparent;
-  color: var(--accent-strong);
-  font: inherit;
-  font-weight: 700;
-  cursor: pointer;
-  box-shadow: none;
 }
 
 @media (max-width: 700px) {
